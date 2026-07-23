@@ -1,8 +1,24 @@
 aid: actio-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/actio-biosciences.png
 name: Actio Biosciences
-description: Actio Biosciences is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Actio Biosciences is a San Diego-based clinical-stage biotechnology company developing
+  precision medicines that translate insights from Mendelian (single-gene) genetics into treatments
+  for both rare and common diseases. Its pipeline targets genetically defined conditions including
+  KCNT1-related epilepsy and TRPV4-related Charcot-Marie-Tooth disease type 2C (CMT2C), following a
+  strategy of expanding from rare indications into more prevalent diseases that share the same
+  underlying biology. The company is backed by Canaan Partners. Actio publishes no developer or API
+  surface; this profile captures its public identity and corporate web properties.
 url: https://raw.githubusercontent.com/api-evangelist/actio-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +31,31 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Precision Medicine
+- Genetics
+- Rare Diseases
+- Drug Discovery
+- Pharmaceutical
 apis: []
+common:
+- type: Website
+  url: https://actiobiosciences.com/
+- type: About
+  url: https://actiobiosciences.com/about/
+- type: Blog
+  url: https://actiobiosciences.com/category/press-releases/
+- type: PrivacyPolicy
+  url: https://actiobiosciences.com/privacy
+- type: TermsOfService
+  url: https://actiobiosciences.com/terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
