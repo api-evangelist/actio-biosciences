@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Biotechnology
@@ -58,6 +58,8 @@ tags_raw:
 - Pharmaceutical
 apis: []
 common:
+- url: https://actiobiosciences.com/category/press-releases/feed/
+  type: BlogRSS
 - type: Website
   url: https://actiobiosciences.com/
 - type: About
